@@ -1,0 +1,22 @@
+{
+    "name": "displayCO2onOLEDdis",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "CO2 Erweiterung": "github:clauszoechling/co2-makecode#eb8ec955c5de7cfe2807b3f6d6bffc75b402a7ab"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
